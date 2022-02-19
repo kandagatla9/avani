@@ -199,6 +199,19 @@
 button:hover{
   color: white;
 }
+//button focus
+input:focus {
+  outline:none;
+  box-shadow: none;
+}
+button:focus {
+  outline:none;
+  box-shadow: none;
+}
+textarea:focus {
+  outline:none;
+  box-shadow: none;
+}
 
 .textGreen:hover{
   color: #6CA100;
