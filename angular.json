@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "Avani"
+  "defaultProject": "Avani",
+  "cli": {
+    "analytics": false
+  }
 }
