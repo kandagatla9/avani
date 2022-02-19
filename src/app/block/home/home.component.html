@@ -295,29 +295,61 @@
             </div>
             <div class="col-lg-6 contactUsForm" style="z-index: 1;">
                 <div class="card borderRadius12 contactUsFormCard">
-                  <form action="">
+                  <form [formGroup]="contactForm" (ngSubmit)="contact(contactForm.value)">
                     <div class="row">
                       <div class="col-lg-6 paddingBottom20">
                         <p class="textBlack marginBottom0 fontSize12 paddingBottom7">Full Name</p>
-                        <input class="form-control" type="text"> 
+                        <input formControlName="name" name="name" class="form-control" type="text"> 
+                        <div *ngIf="isSubmitClicked && contactFormControl.name.errors">
+                            <div  *ngIf="contactFormControl.name.errors.required">
+                                <p class="fontSize12 marginBottom0" style="color: red;">*Please enter your full name</p>
+                            </div>
+                            <div *ngIf="contactFormControl.name.errors.pattern">
+                                <p class="fontSize12 marginBottom0" style="color: red;">*Please enter valid name</p>
+                            </div>
+                        </div>
                       </div>
+                      
                       <div class="col-lg-6">
                         <p class="textBlack marginBottom0 fontSize12 paddingBottom7">Mobile</p>
-                        <input class="form-control" type="text"> 
-                        
+                        <input formControlName="mobile" name="mobile" class="form-control" type="text"> 
+                        <div *ngIf="isSubmitClicked && contactFormControl.mobile.errors">
+                            <div  *ngIf="contactFormControl.mobile.errors.required">
+                                <p class="fontSize12 marginBottom0" style="color: red;">*Please enter your contact number</p>
+                            </div>
+                            <div *ngIf="contactFormControl.mobile.errors.pattern">
+                                <p class="fontSize12 marginBottom0" style="color: red;">*Please enter valid number</p>
+                            </div>
+                        </div>
                       </div>
                       <div class="col-lg-12 paddingBottom20">
                         <p class="textBlack marginBottom0 fontSize12 paddingBottom7">Email</p>
-                        <input class="form-control" type="text"> 
+                        <input formControlName="email" name="email" class="form-control" type="text"> 
+                        <div *ngIf="isSubmitClicked && contactFormControl.email.errors">
+                            <div  *ngIf="contactFormControl.email.errors.required">
+                                <p class="fontSize12 marginBottom0" style="color: red;">*Please enter your email ID</p>
+                            </div>
+                            <div *ngIf="contactFormControl.email.errors.pattern">
+                                <p class="fontSize12 marginBottom0" style="color: red;">*Please enter valid email</p>
+                            </div>
+                        </div>
                       </div>
                       <div class="col-lg-12">
                         <p class="textBlack marginBottom0 fontSize12 paddingBottom7">Message</p>
-                        <textarea class="form-control" name="" id="" cols="30" rows="4"></textarea>
+                        <textarea formControlName="message" name="message" class="form-control" name="" id="" cols="30" rows="4"></textarea>
+                        <div *ngIf="isSubmitClicked && contactFormControl.message.errors">
+                            <div  *ngIf="contactFormControl.message.errors.required">
+                                <p class="fontSize12 marginBottom0" style="color: red;">*please enter your queries</p>
+                            </div>
+                            <div *ngIf="contactFormControl.message.errors.pattern">
+                                <p class="fontSize12 marginBottom0" style="color: red;">*Please enter valid query</p>
+                            </div>
+                        </div>
                       </div>
                       
                     </div><br>
                     <div class="text-center">
-                        <button class="btn btn greenBackground whiteColor">Send <svg xmlns="http://www.w3.org/2000/svg" width="14.44" height="14.439" viewBox="0 0 14.44 14.439">
+                        <button type="submit" class="btn btn greenBackground whiteColor">Send <svg xmlns="http://www.w3.org/2000/svg" width="14.44" height="14.439" viewBox="0 0 14.44 14.439">
                             <path id="Send_Icon" data-name="Send Icon" d="M593.88,599.257a.569.569,0,0,1,.411-.585l3.493-1.234,9.711-3.43a.581.581,0,0,1,.658.106.572.572,0,0,1,.117.655q-2.324,6.578-4.643,13.157a.581.581,0,0,1-.518.465.594.594,0,0,1-.6-.416q-1.145-2.465-2.3-4.925a.185.185,0,0,1,.046-.253q1.2-1.19,2.393-2.389a.5.5,0,0,0,.165-.532.6.6,0,0,0-.463-.425.519.519,0,0,0-.509.192c-.776.778-1.556,1.551-2.326,2.334a.257.257,0,0,1-.352.058q-2.444-1.15-4.894-2.287A.581.581,0,0,1,593.88,599.257Z" transform="translate(-593.88 -593.954)" fill="#fff"/>
                           </svg>
                         </button>

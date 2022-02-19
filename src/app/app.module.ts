@@ -11,7 +11,7 @@ import { GalleryBrochureComponent } from './shared/gallery-brochure/gallery-broc
 import { GreenSwingComponent } from './block/green-swing/green-swing.component';
 import { TestimonialsComponent } from './shared/testimonials/testimonials.component';
 import { ContactUsComponent } from './block/contact-us/contact-us.component'; 
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +26,9 @@ import { ContactUsComponent } from './block/contact-us/contact-us.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
