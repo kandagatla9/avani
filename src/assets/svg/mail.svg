@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="mail" transform="translate(-925 -3236)">
+    <rect id="Rectangle_19" data-name="Rectangle 19" width="18" height="18" transform="translate(925 3236)" fill="rgba(255,255,255,0)"/>
+    <g id="mail_1_" data-name="mail (1)" transform="translate(925 3238.7)">
+      <g id="Group_3" data-name="Group 3" transform="translate(12.382 0.904)">
+        <g id="Group_2" data-name="Group 2">
+          <path id="Path_3" data-name="Path 3" d="M357.67,101.721l-5.459,5.424,5.459,5.424a1.564,1.564,0,0,0,.159-.678V102.4A1.564,1.564,0,0,0,357.67,101.721Z" transform="translate(-352.211 -101.721)" fill="#6ca100"/>
+        </g>
+      </g>
+      <g id="Group_5" data-name="Group 5" transform="translate(0.904 0)">
+        <g id="Group_4" data-name="Group 4">
+          <path id="Path_4" data-name="Path 4" d="M41.235,76H26.4a1.564,1.564,0,0,0-.678.159L32.7,83.1a1.583,1.583,0,0,0,2.237,0l6.977-6.942A1.564,1.564,0,0,0,41.235,76Z" transform="translate(-25.721 -76)" fill="#6ca100"/>
+        </g>
+      </g>
+      <g id="Group_7" data-name="Group 7" transform="translate(0 0.904)">
+        <g id="Group_6" data-name="Group 6">
+          <path id="Path_5" data-name="Path 5" d="M.159,101.721A1.564,1.564,0,0,0,0,102.4v9.492a1.563,1.563,0,0,0,.159.678l5.459-5.424Z" transform="translate(0 -101.721)" fill="#6ca100"/>
+        </g>
+      </g>
+      <g id="Group_9" data-name="Group 9" transform="translate(0.904 7.074)">
+        <g id="Group_8" data-name="Group 8">
+          <path id="Path_6" data-name="Path 6" d="M36.453,277.211l-.772.772a2.64,2.64,0,0,1-3.728,0l-.772-.772-5.459,5.424a1.563,1.563,0,0,0,.678.159H41.235a1.563,1.563,0,0,0,.678-.159Z" transform="translate(-25.721 -277.211)" fill="#6ca100"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

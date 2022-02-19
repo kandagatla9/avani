@@ -1,0 +1,118 @@
+@media screen and (min-width:992px) {
+    .bgImg1{
+        height: 300px;
+        background: url('./../../../assets/Green\ Swing\ cover\ image.png'); background-repeat: no-repeat; background-size: 100% 100%;
+      }
+    .width720{
+        width: 720px;
+    }
+    .bgImg2{
+        height: 345px; min-width: 100%;
+    }
+    .videoHide{
+      min-width: 535px; height: 300px;
+    }
+    .amenitiesBg{
+      background: url('./../../../assets/Amenities\ BG.png'); background-repeat: no-repeat; background-size: 100% 100%;
+    }
+    .brochureBg{
+      background: url('./../../../assets/Brochure\ BG.png'); background-repeat: no-repeat; background-size: 100% 100%;
+    }
+    .videoBg{
+      height: 511px; background: url('./../../../assets/Walk\ Through\ Video\ BG.png'); background-repeat: no-repeat; background-size: 100% 100%;
+    }
+     
+}
+
+@media screen and (max-width:991px) {
+    .bgImg1{
+        height: 300px;
+        background: url('./../../../assets/Green\ Swing\ cover\ image.png'); background-repeat: no-repeat; background-size: 200% 100%;
+      }
+      .width720{
+        width: auto;
+    }
+      .bgImg2{
+        height: 345px; max-width: 100%;
+    } 
+    .paginator{
+        display: none;
+    }
+    .videoHide{
+      max-width: 100%; height: 300px;
+    }
+    .amenitiesBg{
+      background: url('./../../../assets/Amenities\ BG.png'); background-repeat: no-repeat; background-size: 200% 100%;
+    }
+    .brochureBg{
+      background: url('./../../../assets/Brochure\ BG.png'); background-repeat: no-repeat; background-size: 200% 100%;
+    }
+    .videoBg{
+      height: 511px; background: url('./../../../assets/Walk\ Through\ Video\ BG.png'); background-repeat: no-repeat; background-size: 200% 100%;
+    }
+    
+}
+ 
+	
+ 
+ 
+.slide-item { 
+	color: aqua;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 200px; 
+	h3 {
+		font-family: Lato, sans-serif;
+		font-size: 40px;	
+	}
+}
+
+.paginator{ 
+   
+  button{
+      margin-top: -18%;
+      background-color: white;
+      height: 40px;
+      width: 40px;
+  }
+    
+      &.prev{
+        display: block;
+         
+      }
+  
+      &.next{
+        display: block;
+        
+        background: url('../../../assets/gallery-icons/next\ iocn.png'); background-repeat: no-repeat;
+      }
+     
+  } 
+
+  //sec2Svg
+  .sec2Svg{
+      rect{
+          fill: grey;
+      }
+      rect:hover{
+          fill:#6CA100;
+      }
+  }
+
+  //
+  button:focus {
+    outline:none;
+    box-shadow: none;
+  }
+  //
+  button:hover{
+    color: white;
+  }
+  //
+  ::ng-deep app-testimonials{
+    .container-xl{
+      padding-top: 40px;
+    }
+  }

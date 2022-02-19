@@ -1,0 +1,91 @@
+@media screen and (min-width:992px) {
+  .logo {
+    text-align: left;
+  }
+
+  .topContact {
+    text-align: right;
+  }
+
+  .navbarBrand{
+    
+}
+.navbarOtherThanBrand{
+     
+}
+
+}
+
+@media screen and (max-width:991px) {
+  .logo {
+    text-align: center;
+  }
+
+  .topContact {
+    display: none;
+  }
+  .navbarBrand{
+     
+}
+.navbarOtherThanBrand{
+    text-align: center;
+    background-color: rgb(27, 25, 25);
+}
+ 
+}
+ 
+
+
+nav{
+    a{
+        color: white;
+    }
+    div{
+        ul{
+            li{
+                a{
+                    color: #979797;
+                }
+                a:hover{
+                    color: #FFFFFF;
+                   // border-bottom: 2px solid;
+                   // border-radius: 5px;
+                }
+                .active{
+                    color: #FFFFFF;
+                    //border-bottom: 2px solid;
+                  }
+            }
+        }
+    }
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navigationMain{
+    position: absolute;  
+} 
+.marginLeft0{
+    margin-left: 0px;
+}
+
+//ICONS Onhover
+.hovering{
+  a{
+    fill: #979797;
+  }
+  a:hover{
+    fill: #6CA100;
+  }
+}
+
+//button outline focus
+button:focus {
+  outline:none;
+  box-shadow: none;
+}
+//
+button:hover{
+  color: white;
+}

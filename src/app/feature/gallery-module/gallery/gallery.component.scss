@@ -1,0 +1,52 @@
+@media screen and (min-width:992px) {
+    .bgImg1{
+        height: 300px;
+        background: url('./../../../../assets/gallery/Gallery\ Cover\ image.png'); background-repeat: no-repeat; background-size: 100% 100%;
+      }
+      .width904{
+        width: 904px;
+      }
+
+      
+}
+
+@media screen and (max-width:991px) {
+    .bgImg1{
+        height: 300px;
+        background: url('./../../../../assets/gallery/Gallery\ Cover\ image.png'); background-repeat: no-repeat; background-size: 200% 100%;
+      }
+      .width904{
+        width: auto;
+      }
+}
+
+.galleryBg1{
+  height: 234px;
+  background: url('./../../../../assets/gallery/Green\ Swing\ -\ image.png'); background-repeat: no-repeat; background-size: 100% 100%;
+}
+.galleryBg2{
+  height: 234px;
+  background: url('./../../../../assets/gallery/Project\ A\ -\ image.png'); background-repeat: no-repeat; background-size: 100% 100%;
+}
+.galleryBg3{
+  height: 234px;
+  background: url('./../../../../assets/gallery/Project\ B\ -\ image.png'); background-repeat: no-repeat; background-size: 100% 100%;
+}
+.galleryBg4{
+  height: 234px;
+  background: url('./../../../../assets/gallery/Project\ C\ -\ image.png'); background-repeat: no-repeat; background-size: 100% 100%;
+}
+.galleryBg5{
+  height: 234px;
+  background: url('./../../../../assets/gallery/Project\ D\ -\ image.png'); background-repeat: no-repeat; background-size: 100% 100%;
+}
+.galleryBg6{
+  height: 234px;
+  background: url('./../../../../assets/gallery/Project\ E\ -\ image.png'); background-repeat: no-repeat; background-size: 100% 100%;
+}
+
+.galleryHover:hover{
+  height: 234px;
+  background-color: #00000061;
+  border-radius: 6px;
+}

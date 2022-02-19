@@ -1,0 +1,184 @@
+@media screen and (min-width:992px) {
+    .bgImg1{
+        height: 300px;
+        background: url('./../../../assets/aboutus/About\ us\ cover\ image.png'); background-repeat: no-repeat; background-size: 100% 100%;
+      }
+      .bgImg2{
+        height: 590px;
+        background: url('./../../../assets/aboutus/Our\ \ Leadership\ Team\ BG.png'); background-repeat: no-repeat; background-size: 100% 100%;
+      }
+      .img1{
+        min-width: 100%;
+        height: 340px;
+      }
+      .width720{
+        width: 720px;
+    }
+    .width430{
+      width: 430px;
+    }
+    }
+
+  @media screen and (max-width:991px) {
+     .bgImg1{
+           height: 300px;
+           background: url('./../../../assets/aboutus/About\ us\ cover\ image.png'); background-repeat: no-repeat; background-size: 200% 100%;
+         }
+         .img1{
+          max-width: 100%;
+          height: 340px;
+        }
+        .bgImg2{
+          height: auto;
+          background: url('./../../../assets/aboutus/Our\ \ Leadership\ Team\ BG.png'); background-repeat: no-repeat; background-size: 200% 100%;
+        }
+        .width720{
+          width: auto;
+      }
+      .width430{
+        width: auto;
+      }
+    }    
+
+    //Zoom in
+    .zoom-in-out-box {
+      width: 75px;
+      height: 75px;
+      background: url('./../../../assets/aboutus/BF\ for\ Vision.\ mission\,\ core\ value\ \(1\).png');
+      animation: zoom-in-zoom-out 1s ease infinite;
+    }
+    
+    @keyframes zoom-in-zoom-out {
+      0% {
+        transform: scale(1, 1);
+      }
+      50% {
+        transform: scale(1.5, 1.5);
+      }
+      100% {
+        transform: scale(1, 1);
+      }
+    }
+
+    .zoom-in-out-boxs {
+      width: 95px;
+      height: 95px;
+      background: url('./../../../assets/aboutus/BG\ for\ Team\ Leader\ \(1\).png');
+      animation: zoom-in-zoom-outs 1s ease infinite;
+    }
+    
+    @keyframes zoom-in-zoom-outs {
+      0% {
+        transform: scale(1, 1);
+      }
+      50% {
+        transform: scale(1.5, 1.5);
+      }
+      100% {
+        transform: scale(1, 1);
+      }
+    }
+
+    .zoom-in-out-boxs3 {
+      width: 95px;
+      height: 95px;
+      background: url('./../../../assets/aboutus/BG\ for\ Team\ Leader\ \(1\).png');
+      animation: zoom-in-zoom-outs3 1s ease infinite;
+    }
+    
+    @keyframes zoom-in-zoom-outs3 {
+      0% {
+        transform: scale(1, 1);
+      }
+      50% {
+        transform: scale(1.5, 1.5);
+      }
+      100% {
+        transform: scale(1, 1);
+      }
+    }
+
+    @media screen and (min-width:1400px) {
+      .resAnimation{
+        margin-left: 170px;
+      }
+      .resAnimation2{
+        margin-left: 60px;
+      }
+      //.res/Animation2_3{
+      //  margin-left: 65px;
+      //}
+      .resAnimation3{
+        margin-left: 59px;
+      }
+      //.resAnimation3_2{
+     //   margin-left: 54px;
+     // }
+    }
+    @media only screen and (min-width:1200px) and (max-width:1399px) {
+      .resAnimation{
+        margin-left: 140px;
+      }
+      .resAnimation2{
+        margin-left: 60px;
+      }
+      .resAnimation3{
+        margin-left: 50px;
+      }
+    }
+    @media only screen and (min-width:992px) and (max-width:1199px) {
+      .resAnimation{
+        margin-left: 110px;
+      }
+      .resAnimation2{
+        margin-left: 60px;
+      }
+      .resAnimation3{
+        margin-left: 50px;
+      }
+    }
+    @media only screen and (min-width:768px) and (max-width:991px) {
+      .resAnimation{
+        margin-left: 310px;
+      }
+      .resAnimation2{
+        margin-left: 290px;
+      }
+      .resAnimation3{
+        margin-left: 290px;
+      }
+    }
+    @media only screen and (min-width:576px) and (max-width:767px){
+      .resAnimation{
+        margin-left: 220px;
+      }
+      .resAnimation2{
+        margin-left: 200px;
+      }
+      .resAnimation3{
+        margin-left: 200px;
+      }
+    }
+    @media only screen and (min-width:452px) and (max-width:575px){
+      .resAnimation{
+        margin-left: 41%;
+      }
+      .resAnimation2{
+        margin-left: 36%;
+      }
+      .resAnimation3{
+        margin-left: 36%;
+      }
+    }
+    @media only screen and (min-width:1px) and (max-width:451px) {
+      .resAnimation{
+        margin-left: 37%;
+      }
+      .resAnimation2{
+        margin-left: 32%;
+      }
+      .resAnimation3{
+        margin-left: 32%;
+      }
+    }
+    //zoom in end

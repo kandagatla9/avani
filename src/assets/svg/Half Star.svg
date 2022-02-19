@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13.745" height="13.173" viewBox="0 0 13.745 13.173">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.627" x2="1.07" y2="0.615" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f5b400"/>
+      <stop offset="0.464" stop-color="#f5b400"/>
+      <stop offset="0.469" stop-color="#8d6b04" stop-opacity="0"/>
+      <stop offset="1" stop-color="#806104" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path id="Half_Star" data-name="Half Star" d="M13.709,5.469a.729.729,0,0,0-.629-.5l-3.967-.36L7.544.935A.73.73,0,0,0,6.2.935L4.632,4.607l-3.968.36A.731.731,0,0,0,.25,6.245l3,2.63-.884,3.9a.729.729,0,0,0,1.086.789l3.422-2.045,3.421,2.045a.73.73,0,0,0,1.087-.789l-.884-3.9,3-2.629a.731.731,0,0,0,.214-.777Zm0,0" transform="translate(0 -0.491)" fill="url(#linear-gradient)"/>
+</svg>

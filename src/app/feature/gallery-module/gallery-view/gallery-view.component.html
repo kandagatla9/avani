@@ -1,0 +1,55 @@
+<div class="container paddingTop40">
+  <p class="fontSize30 marginBottom2 greenColor text-center" style="font-family: 'Sansita Swashed', cursive;">{{title}}</p>
+  <p class="color333333 text-center fontSize14">{{count}} images</p>
+</div>
+<div class="container width904 textAlignCenter paddingBottom26"> 
+        <div class="row">
+            <div  *ngFor="let g of gallery" class="col-lg-4 paddingTop18">
+                <img data-toggle="modal" data-target="#exampleModal" src="{{g}}" alt="">
+            </div>
+        </div> 
+</div>
+
+
+<!-- Button trigger modal -->
+ 
+  
+  <!-- Modal -->
+  <div class="modal fade modalMain"  id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog"    role="document">
+      <div class="modal-content modalContent"  > 
+        <div class="modal-body">
+            <div class="slick-wrapper">
+                <div id="slick2">
+                      <div class="slide-item">
+                        <img class="imgSlick"  src="./../../../assets/gallery/Large image 1.png" alt=""></div>
+                      <div class="slide-item"><img  class="imgSlick" src="./../../../assets/gallery/Large image 2.png" alt=""></div>
+                      <div class="slide-item"><img  class="imgSlick" src="./../../../assets/gallery/Large image 3.png" alt=""></div>
+                      <div class="slide-item"><img class="imgSlick" src="./../../../assets/gallery/Large image 4.png" alt=""></div>
+                      <div class="slide-item"><img class="imgSlick" src="./../../../assets/gallery/Large image 5.png" alt=""></div>
+                      <div class="slide-item"><img  class="imgSlick" src="./../../../assets/gallery/Large image 6.png" alt=""></div>
+                      <div class="slide-item"><img class="imgSlick" src="./../../../assets/gallery/Large image 7.png" alt=""></div>
+                      <div class="slide-item"><img class="imgSlick" src="./../../../assets/gallery/Large image 8.png" alt=""></div>
+                      <div class="slide-item"><img class="imgSlick"  src="./../../../assets/gallery/Large image 9.png" alt=""></div>
+                  </div>
+              </div>
+              
+        </div>
+        <div class="displayNone   ">
+            <div  >
+                <div class="paginator"> 
+                    <button class="btn btn prev" 
+                    style="float: left; background: transparent;transform: rotateY(180deg); margin-left: -50px;" >
+                        <img src="./../../../assets/gallery-icons/next iocn.png" alt="">
+                    </button>
+                    <button data-slide='next' class="btn btn next" 
+                    style="float: right;background: transparent; z-index: 1; position: relative; margin-right: -50px;">
+                        <img src="./../../../assets/gallery-icons/next iocn.png" alt="">
+                    </button>
+                     
+                </div>
+            </div> 
+        </div> 
+      </div>
+    </div>
+  </div>

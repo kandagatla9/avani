@@ -1,0 +1,112 @@
+@media screen and (min-width:992px) {
+    .bgImg1{
+        height: 300px;
+        background: url('./../../../assets/contactus/Group\ 42387.png'); background-repeat: no-repeat; background-size: 100% 100%;
+      }
+    .width368{
+        width: 368px;
+    }  
+    .widthMinMax{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .bgImg1{
+        height: 300px;
+        background: url('./../../../assets/contactus/Group\ 42387.png'); background-repeat: no-repeat; background-size: 200% 100%;
+      }
+    .width368{
+        width: auto;
+    }  
+    .widthMinMax{
+        max-width: 100%;
+    }
+}
+ 
+
+ //Zoom in
+ .zoom-in-out-box {   
+    width: 45px;
+    height: 45px;
+    background: url('./../../../assets/contactus/Ellipse\ 105.png');
+    animation: zoom-in-zoom-out 1s ease infinite;
+  }
+  
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.8, 1.8);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+  @media screen and (min-width:1400px) {
+    .resAnimation{
+      margin-left: 88px;
+    }  
+  }
+  @media only screen and (min-width:1200px) and (max-width:1399px) {
+    .resAnimation{
+      margin-left: 68px;
+    } 
+  }
+  @media only screen and (min-width:992px) and (max-width:1199px) {
+    .resAnimation{
+      margin-left: 48px;
+    } 
+  }
+  @media only screen and (min-width:768px) and (max-width:991px) {
+    .resAnimation{
+      margin-left: 300px;
+    } 
+  }
+  @media only screen and (min-width:576px) and (max-width:767px){
+    .resAnimation{
+      margin-left: 210px;
+    } 
+  }
+  @media only screen and (min-width:452px) and (max-width:575px){
+    .resAnimation{
+        display: none;
+      margin-left: 39.5%;
+    } 
+  }
+  @media only screen and (min-width:381px) and (max-width:451px) {
+    .resAnimation{
+        display: none;
+      margin-left: 34%;
+    } 
+    
+  }
+  @media only screen and (min-width:350px) and (max-width:380px) {
+    .resAnimation{ 
+      margin-left: 34%;
+    } 
+    
+  }
+  @media only screen and (min-width:1px) and (max-width:349px) {
+    .resAnimation{ 
+        display: none;
+      margin-left: 34%;
+    } 
+    
+  }
+  //zoom in end
+
+  //button outline focus
+input:focus {
+    outline:none;
+    box-shadow: none;
+  }
+  textarea:focus {
+    outline:none;
+    box-shadow: none;
+  }
+  button:hover{
+    color: white;
+  }

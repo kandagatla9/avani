@@ -1,0 +1,78 @@
+@media screen and (min-width:992px) {
+  
+    .width904{
+      width: 904px;
+    }
+    .modalMain{
+      margin-top: 0%;
+    }
+    .modalContent{
+      background: transparent; border: none; width: 900px; margin-left: -37%; height: 500px;
+    }
+    .imgSlick{
+      height: 500px;
+    }
+    
+}
+
+@media screen and (max-width:991px) {
+   
+    .width904{
+      width: auto;
+    }
+    .textAlignCenter{
+      text-align: center;
+    }
+    .modalMain{
+      margin-top: 10%;
+    }
+    .modalContent{
+      background: transparent; border: none; max-width: auto; 
+    }
+    .imgSlick{
+      min-width: 100%;
+      height: 100%;
+    }
+    .displayNone{
+      display: none;
+    }
+} 
+
+  .slide-item { 
+    color: aqua;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    h3 {
+      font-family: Lato, sans-serif;
+      font-size: 40px;	
+    }
+  }
+  
+  .paginator{ 
+     
+    button{
+        margin-top: -38%;
+        background-color: white;
+        height: 40px;
+        width: 40px;
+    }
+      
+        &.prev{
+          display: block; 
+        }
+    
+        &.next{
+          display: block;
+          background: url('../../../../assets/gallery-icons/next\ iocn.png'); background-repeat: no-repeat;
+        }
+       
+    }
+
+    button:focus {
+      outline:none;
+      box-shadow: none;
+    }
+
+   

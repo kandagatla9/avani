@@ -1,0 +1,29 @@
+//ICONS Onhover
+.hovering{
+    a{
+      fill: #5A5A5A;
+    }
+    .back{
+        fill: #6CA100;
+    }
+    a:hover{
+      fill: #6CA100;
+      .back{
+          fill: #5A5A5A;
+      }
+    }
+  }
+  .hovering{
+    a{
+      fill: #5A5A5A;
+    }
+    .forward{
+        fill: #6CA100;
+    }
+    a:hover{
+      fill: #6CA100;
+      .forward{
+          fill: #5A5A5A;
+      }
+    }
+  }

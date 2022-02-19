@@ -1,0 +1,11 @@
+<svg id="Next_Border" data-name="Next Border" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Ellipse_1" data-name="Ellipse 1" fill="rgba(255,255,255,0)" stroke="#6ca100" stroke-width="1.5">
+    <circle cx="15" cy="15" r="15" stroke="none"/>
+    <circle cx="15" cy="15" r="14.25" fill="none"/>
+  </g>
+  <g id="right-arrow" transform="translate(11.457 8.97)">
+    <g id="Group_147" data-name="Group 147" transform="translate(0 0)">
+      <path id="Path_145" data-name="Path 145" d="M6.893,5.559,1.526.193a.661.661,0,0,0-.933,0l-.4.4a.66.66,0,0,0,0,.933L4.7,6.027.193,10.538a.661.661,0,0,0,0,.933l.4.395a.661.661,0,0,0,.933,0L6.893,6.5a.666.666,0,0,0,0-.936Z" fill="#6ca100"/>
+    </g>
+  </g>
+</svg>
