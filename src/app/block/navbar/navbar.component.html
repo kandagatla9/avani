@@ -50,6 +50,10 @@
                                     data-target="#navbarNavDropdown">
                                     <a class="nav-link"  [routerLinkActive]="['active']">Blog</a>
                                 </li>
+                                <li *ngIf="executeContact" class="nav-item" aria-expanded="false" data-toggle="collapse"
+                                    data-target="#navbarNavDropdown">
+                                    <a class="nav-link" routerLink="contactus"  [routerLinkActive]="['active']">Contact us</a>
+                                </li>
                                 <!--<li class="nav-item" aria-expanded="false" data-toggle="collapse" data-target="#navbarNavDropdown">
                                 <a class="nav-link" routerLink="blog" [routerLinkActive]="['active']">Blog</a>
                             </li>
