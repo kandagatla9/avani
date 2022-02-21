@@ -6,7 +6,7 @@ import { GreenSwingComponent } from './block/green-swing/green-swing.component';
 import { HomeComponent } from './block/home/home.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: '/home', pathMatch: 'full'},
+  {path: '', component:HomeComponent},//redirectTo: '/home', pathMatch: 'full'
   {path:'home', component:HomeComponent},
   {path:'greenswing', component:GreenSwingComponent},
   {path:'aboutus', component:AboutUsComponent},

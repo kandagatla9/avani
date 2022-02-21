@@ -8,9 +8,23 @@
             Crafting exquisite homes for people from all walks of life for generations.</p>
     </div>
 </div>-->
-<video id="videoBG" autoplay muted loop>
+<video id="videoBG" #video (canplay)="video.play()" autoplay muted loop (loadedmetadata)="video.muted = true" >
     <source src="./../../../assets/InVideo___Project_ID__914pprenderfs_1645441461826 (1).mp4" type="video/mp4"> 
 </video>
+<script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+    </script>
 
 <div class="bgImg2" style="margin-top: -6px;"><!-- style="margin-top: -6px;"-->
     <div class="container text-center">
