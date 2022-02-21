@@ -13,7 +13,7 @@
   </defs>
   <g id="Group_42325" data-name="Group 42325" transform="translate(-498 -929)">
     <g transform="matrix(1, 0, 0, 1, 498, 929)" filter="url(#Rectangle_8)">
-      <rect id="Rectangle_8-2" data-name="Rectangle 8" width="168" height="152" rx="8" transform="translate(9 6)"/>
+      <rect id="Rectangle_8-2" data-name="Rectangle 8" width="168" height="152" rx="8" fill="#ffffffb0" transform="translate(9 6)"/>
     </g>
     <rect id="fence" width="55" height="56" transform="translate(564 952)" fill="url(#pattern)"/>
     <text id="Fencing_Around_Community" data-name="Fencing Around

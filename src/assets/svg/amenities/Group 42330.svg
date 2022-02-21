@@ -13,7 +13,7 @@
   </defs>
   <g id="Group_42330" data-name="Group 42330" transform="translate(-313 -1096)">
     <g transform="matrix(1, 0, 0, 1, 313, 1096)" filter="url(#Rectangle_14)">
-      <rect id="Rectangle_14-2" data-name="Rectangle 14" width="169" height="153" rx="8" transform="translate(9 6)"/>
+      <rect id="Rectangle_14-2" data-name="Rectangle 14" width="169" height="153" rx="8" fill="#ffffffb0" transform="translate(9 6)"/>
     </g>
     <rect id="water-tower" width="55" height="56" transform="translate(379 1119)" fill="url(#pattern)"/>
     <text id="Overhead_Tank" data-name="Overhead

@@ -50,7 +50,9 @@
     .videoBg{
       height: 511px; background: url('./../../../assets/Walk\ Through\ Video\ BG.png'); background-repeat: no-repeat; background-size: 200% 100%;
     }
-    
+    .paddingtop40Tiles{
+      padding-top: 40px;
+    }
 }
  
 	
@@ -72,7 +74,7 @@
 .paginator{ 
    
   button{
-      margin-top: -18%;
+      margin-top: -19.5%;
       background-color: white;
       height: 40px;
       width: 40px;

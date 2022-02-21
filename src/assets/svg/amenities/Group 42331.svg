@@ -13,7 +13,7 @@
   </defs>
   <g id="Group_42331" data-name="Group 42331" transform="translate(-498 -1096)">
     <g transform="matrix(1, 0, 0, 1, 498, 1096)" filter="url(#Rectangle_21)">
-      <rect id="Rectangle_21-2" data-name="Rectangle 21" width="168" height="152" rx="8" transform="translate(9 6)"/>
+      <rect id="Rectangle_21-2" data-name="Rectangle 21" width="168" height="152" rx="8" fill="#ffffffb0" transform="translate(9 6)"/>
     </g>
     <text id="Sports_Arena" data-name="Sports
 Arena" transform="translate(590 1205)" fill="#333" font-size="18" font-family="SofiaPro-Regular, Sofia Pro"><tspan x="-26.001" y="0">Sports</tspan><tspan x="-24.642" y="26">Arena</tspan></text>

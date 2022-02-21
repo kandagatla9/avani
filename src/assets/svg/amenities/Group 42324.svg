@@ -13,7 +13,7 @@
   </defs>
   <g id="Group_42324" data-name="Group 42324" transform="translate(-314 -929)">
     <g transform="matrix(1, 0, 0, 1, 314, 929)" filter="url(#Rectangle_11)">
-      <rect id="Rectangle_11-2" data-name="Rectangle 11" width="168" height="152" rx="8" transform="translate(9 6)"/>
+      <rect id="Rectangle_11-2" data-name="Rectangle 11" width="168" height="152" rx="8" fill="#ffffffb0" transform="translate(9 6)"/>
     </g>
     <rect id="road" width="56" height="57" transform="translate(379 952)" fill="url(#pattern)"/>
     <text id="BT_Roads" data-name="BT

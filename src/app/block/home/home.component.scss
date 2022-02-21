@@ -40,6 +40,9 @@
       height: 279px;
         background: url('./../../../assets/home/Blog\ 4.png'); background-repeat: no-repeat; background-size: 100% 100%;
     }
+    .paddingTop50{
+      padding-top: 50px;
+    }
   
   }
   
@@ -87,6 +90,9 @@
       }
       .imgWidthAuto{
         width: -webkit-fill-available;
+      }
+      .paddingTop50{
+        padding-top: 0px;
       }
   }
 

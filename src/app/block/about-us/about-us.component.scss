@@ -123,7 +123,7 @@
         margin-left: 60px;
       }
       .resAnimation3{
-        margin-left: 50px;
+        margin-left: 47px;
       }
     }
     @media only screen and (min-width:992px) and (max-width:1199px) {
@@ -172,13 +172,20 @@
     }
     @media only screen and (min-width:1px) and (max-width:451px) {
       .resAnimation{
-        margin-left: 37%;
+        margin-left: 38%;
       }
       .resAnimation2{
-        margin-left: 32%;
+        margin-left: 32.5%;
       }
       .resAnimation3{
-        margin-left: 32%;
+        margin-left: 32.5%;
       }
     }
     //zoom in end
+
+    a:hover{
+      color: white;
+    }
+    a{
+      text-decoration: none;
+    }
