@@ -99,7 +99,7 @@
                   <form [formGroup]="contactForm" (ngSubmit)="contact(contactForm.value)">
                     <div class="row">
                       <div class="col-lg-6 paddingBottom20">
-                        <p class="textBlack marginBottom0 fontSize12 paddingBottom7">Full Name<span style="color: red;">*</span></p>
+                        <p class="color333333 marginBottom0 fontSize12 paddingBottom7">Full Name<span style="color: red;">*</span></p>
                         <input formControlName="name" name="name" class="form-control" type="text"> 
                         <div *ngIf="isSubmitClicked && contactFormControl.name.errors">
                             <div  *ngIf="contactFormControl.name.errors.required">
@@ -112,7 +112,7 @@
                       </div>
                       
                       <div class="col-lg-6">
-                        <p class="textBlack marginBottom0 fontSize12 paddingBottom7">Mobile<span style="color: red;">*</span></p>
+                        <p class="color333333 marginBottom0 fontSize12 paddingBottom7">Mobile<span style="color: red;">*</span></p>
                         <input formControlName="mobile" name="mobile" class="form-control" type="text"> 
                         <div *ngIf="isSubmitClicked && contactFormControl.mobile.errors">
                             <div  *ngIf="contactFormControl.mobile.errors.required">
@@ -124,7 +124,7 @@
                         </div>
                       </div>
                       <div class="col-lg-12 paddingBottom20">
-                        <p class="textBlack marginBottom0 fontSize12 paddingBottom7">Email<span style="color: red;">*</span></p>
+                        <p class="color333333 marginBottom0 fontSize12 paddingBottom7">Email<span style="color: red;">*</span></p>
                         <input formControlName="email" name="email" class="form-control" type="text"> 
                         <div *ngIf="isSubmitClicked && contactFormControl.email.errors">
                             <div  *ngIf="contactFormControl.email.errors.required">
@@ -136,7 +136,7 @@
                         </div>
                       </div>
                       <div class="col-lg-12">
-                        <p class="textBlack marginBottom0 fontSize12 paddingBottom7">Message<span style="color: red;">*</span></p>
+                        <p class="color333333 marginBottom0 fontSize12 paddingBottom7">Message<span style="color: red;">*</span></p>
                         <textarea formControlName="message" name="message" class="form-control" name="" id="" cols="30" rows="4"></textarea>
                         <div *ngIf="isSubmitClicked && contactFormControl.message.errors">
                             <div  *ngIf="contactFormControl.message.errors.required">
