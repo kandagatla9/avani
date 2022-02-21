@@ -222,3 +222,12 @@ textarea:focus {
 .textGreen:hover{
   color: #6CA100;
 }
+
+//video
+#videoBG{
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
