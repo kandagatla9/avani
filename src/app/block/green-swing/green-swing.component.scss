@@ -118,3 +118,27 @@
       padding-top: 40px;
     }
   }
+
+  @media screen and (min-width:1800px) {
+    .paginator{ 
+   
+      button{
+          margin-top: -13.5%;
+          background-color: white;
+          height: 40px;
+          width: 40px;
+      }
+        
+          &.prev{
+            display: block;
+             
+          }
+      
+          &.next{
+            display: block;
+            
+            background: url('../../../assets/gallery-icons/next\ iocn.png'); background-repeat: no-repeat;
+          }
+         
+      } 
+  }
